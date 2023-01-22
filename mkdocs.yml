@@ -1,0 +1,46 @@
+site_name: robolab-docs
+theme:
+  name: material
+  logo: assets/icon-nao.svg
+  favicon: assets/icon-nao.svg
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.sections
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search:
+      lang: en
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+    - Home: 'index.md'
+    - Getting Started:
+      - Installing Software: getting-started/installing-software.md
+      - robolab-installer: getting-started/robolab-installer.md
+      - Manual Installation: getting-started/manual-installation.md
