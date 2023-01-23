@@ -47,6 +47,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+copyright: Documentation by Sean O'Connor
+extra:
+  generator: false
+
 nav:
     - Home: 'index.md'
     - Getting Started:
@@ -55,3 +59,4 @@ nav:
       - Manual Installation: getting-started/manual-installation.md
     - NAOqi C++ SDK:
       - Creating your first C++ project: cpp-sdk/first-cpp-project.md
+    - References: 'references.md'
