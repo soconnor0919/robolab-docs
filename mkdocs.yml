@@ -53,3 +53,5 @@ nav:
       - Installing Software: getting-started/installing-software.md
       - Using robolab-installer: getting-started/robolab-installer.md
       - Manual Installation: getting-started/manual-installation.md
+    - NAOqi C++ SDK:
+      - Creating your first C++ project: cpp-sdk/first-cpp-project.md

@@ -290,7 +290,7 @@ Then, add the Python extension to VS Code.
 code --install-extension ms-vscode.cpptools
 ```
 
-Your development environment is now set up. Proceed to [creating your first C++ project]().
+Your development environment is now set up. Proceed to [creating your first C++ project](../cpp-sdk/first-cpp-project.md).
 
 ## Other Software
 
