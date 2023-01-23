@@ -1,16 +1,36 @@
 # Installing Software
 
+To start using your NAO, you first need to set up a development environment. 
+
+There are five pieces of software you might need.
+
+1. Choregraphe IDE
+    - A block-based development environment, which allows for simulation of programs.
+2. NAOqi Python SDK
+    - Python-based Software Development Kit, with access to the full NAOqi API.
+3. NAOqi C++ SDK
+    - C++-based Software Development Kit, with access to the full NAOqi API.
+4. NAO Flasher
+    - Allows the user to create a bootable USB drive in order to flash the NAO's firmware.
+5. Robot Settings
+    - Allows the user to connect to and manage the robot's settings.
+
+
 ## Recommended Hardware
 
 The majority of development during the semester was done on the following hardware:
+
+![Dell 5520](../assets/dell-5520.png "Dell Precision 5520"){ align="left", width="30%" }
 
 Dell Precision 5520
 
 - CPU: Intel i7-7820HQ
 - Memory: 8GB DDR4 2400MHz
 - Storage: 512GB NVMe SSD
-- Graphics: NVIDIA Quadro M1200 (4GB GDDR5)
+- Graphics: NVIDIA Quadro M1200 (4GB GDDR5)  
 
+<br>
+  
 !!! note
 
     The processor above is of the x86_64 architecture. Minimal testing was done on an Apple Silicon-based MacBook Pro natively, through Rosetta 2, and through Parallels Desktop, all requiring many patches for minimal progress. The rest of this guide assumes you are utilizing similar hardware to that mentioned above.

@@ -1,4 +1,4 @@
-# robolab-installer
+# Using robolab-installer
 
 ## What is robolab-installer?
 

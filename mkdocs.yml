@@ -7,6 +7,10 @@ theme:
     - content.code.copy
     - navigation.instant
     - navigation.sections
+    - navigation.top
+    # - toc.integrate 
+    - navigation.path
+    - navigation.footer
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -37,10 +41,15 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - toc:
+      title: On this page
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
     - Home: 'index.md'
     - Getting Started:
       - Installing Software: getting-started/installing-software.md
-      - robolab-installer: getting-started/robolab-installer.md
+      - Using robolab-installer: getting-started/robolab-installer.md
       - Manual Installation: getting-started/manual-installation.md
